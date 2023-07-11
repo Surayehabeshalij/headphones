@@ -1,18 +1,57 @@
 body {
-    margin: 0;
+    margin: 0px;
     font-family: Arial, sans-serif;
+    color: white;
   }
   
   header {
     background-color: #fff;
-    padding: 20px;
-    box-shadow: 0px 0px 10px #ddd;
+    padding: 10px;
+    box-shadow: 0px 0px  10px #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+   
   }
   
+h1 {
+    font-size: 32px;
+    float: left;
+    margin: 0px;
+  }
+  
+  nav ul {
+    
+    list-style: none;
+    margin-top: -35px;
+  }
+  
+  nav li {
+   
+      
+      padding-left: 20px;
+      text-align: right;
+      float: right;
+      
+  
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    float: left;
+  }
+  
+  nav li a:hover {
+    color: #FF6565;
+  }
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    float: left;
   }
   
   nav img {
@@ -24,16 +63,10 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    float: right;
   }
   
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-  }
+
   
   nav button {
     background-color: #ff9900;
@@ -44,10 +77,7 @@ body {
     font-size: 18px;
   }
   
-  main {
-    padding: 50px;
-  }
- 
+  
   
   .hero {
     display: flex;
@@ -66,13 +96,12 @@ body {
   }
   
   .hero-text p {
-    font-size: 24px;
+    font-size: 15px;
     margin-bottom: 40px;
   }
   
-  .hero-text button, .cta button {
-    background-color: #ff9900;
-    color: #fff;
+  .hero-text button {
+    background-color: #FF6565;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
@@ -87,18 +116,72 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
   }
+    .button-design:hover {
+        color: #FF6565;
+      }
+  
   
   
   body, header {
     background-image: url("Images/headphones_hero_1.jpg");
-     background-repeat: no-repeat;
-     background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
   }
    .cta p{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 10px;
+   }
+   main {
+    max-width: 800px;
+    margin: 200 auto;
+    padding: 200px;
     align-items: center;
     text-align: center;
-   }
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin-top: 100px;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 767px) {
+    header {
+      padding: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+      max-width: 600px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    main {
+      max-width: 1000px;
+    }
+  }
+  
