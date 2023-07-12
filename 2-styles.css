@@ -238,10 +238,11 @@ h1 {
     font-size: 1.2em;
     text-align: center;
     height: 200px;
-    color: #333;
     background-image: url("Images/pentagone.png");
-    background-attachment: fixed;
-    background-size: inherit;
+    background-size: 100% 100%;
+    color: white;
+
+
     
   }
   
@@ -252,7 +253,7 @@ h1 {
     }
   
     #our-results li {
-      width: 45%;
+      width: 50%;
     }
   }
   
