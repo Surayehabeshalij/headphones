@@ -18,7 +18,6 @@ body {
   
 h1 {
     font-size: 32px;
-    float: left;
     margin: 0px;
   }
   
@@ -26,6 +25,7 @@ h1 {
     
     list-style: none;
     margin-top: -35px;
+    float: right;
   }
   
   nav li {
@@ -41,7 +41,8 @@ h1 {
   nav li a {
     color: #fff;
     text-decoration: none;
-    float: left;
+    float: right;
+    
   }
   
   nav li a:hover {
@@ -131,11 +132,11 @@ h1 {
     background-attachment: fixed;
   }
    .cta p{
-    display: flex;
     flex: 1;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
     font-size: 10px;
    }
    main {
