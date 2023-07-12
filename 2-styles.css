@@ -1,0 +1,289 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  header {
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font: bolder;
+    float: right;
+    margin-top: 40px;
+   margin-right: 250px;
+  }
+  #logo {
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  
+h1 {
+    font-size: 32px;
+   
+  }
+  
+  nav ul {
+    
+    list-style: none;
+    
+    float: right;
+  }
+  
+  nav li {
+   
+      
+      padding-left: 20px;
+      text-align: right;
+      float: right;
+      width: 130px;
+    
+      
+  
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+   
+    
+  }
+  
+  nav li a:hover {
+    color: #FF6565;
+  }
+  nav {
+    
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  nav button {
+    background-color: #ff9900;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    border-radius: 500px;
+  }
+  .for {
+    background-image: url("Images/headphones_hero_1.jpg");
+  }
+  
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .hero-text {
+    flex: 1;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-text button {
+    background-color: #FF6565;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    
+  }
+  
+  .hero-image img {
+    width: 500px;
+  }
+  .button-design {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 500px;
+  }
+    .button-design:hover {
+        color: #FF6565;
+      }
+  
+  
+  
+  body, header {
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+   .cta p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    font-size: 13px;
+    padding: 40px;
+    display: flex;
+    flex: 1;
+    margin-left: 120px;
+    
+   }
+   main {
+    max-width: 800px;
+    margin: 200 auto;
+    padding: 200px;
+    align-items: center;
+    text-align: center;
+  }
+  #what-we-do {
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    
+  }
+  #cba {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    margin-left: 420px;
+    
+   }
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    text-align: center;
+  }
+  
+  .service {
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+  }
+  
+  .service img {
+    width: 100%;
+  }
+  
+  .service h3 {
+    font-size: 1.5em;
+    margin: 20px 0;
+    font-size: 15px;
+  }
+  
+  .service p {
+    font-size: 1.5em;
+    margin: 0 20px 20px;
+    font-size: 10px;
+  }
+  #our-results {
+    background-image: url("Images/headphones_hero_2.jpg");
+    background-color: #333;
+    padding: 50px;
+    color: #fff;
+  }
+  
+  #our-results h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #our-results p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    text-align: center;
+        
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+        font-size: 15px;
+        padding: 20px;
+        display: flex;
+        flex: 1;
+        margin-left: 280px;
+        
+       
+  }
+  
+  #our-results ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  #our-results li {
+    font-size: 1.2em;
+    text-align: center;
+    height: 200px;
+    color: #333;
+    background-image: url("Images/pentagone.png");
+    background-attachment: fixed;
+    background-size: inherit;
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    #our-results ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    #our-results li {
+      width: 45%;
+    }
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 767px) {
+    header {
+      padding: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+      max-width: 600px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    main {
+      max-width: 1000px;
+    }
+  }
+  
