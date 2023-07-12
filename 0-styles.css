@@ -5,10 +5,8 @@ body {
   }
   
   header {
-    background-color: #fff;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
     color: #fff;
     font: bolder;
     float: right;
@@ -38,6 +36,8 @@ h1 {
       padding-left: 20px;
       text-align: right;
       float: right;
+      width: 130px;
+    
       
   
   }
@@ -53,36 +53,24 @@ h1 {
     color: #FF6565;
   }
   nav {
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
     
   }
   
-  nav img {
-    height: 50px;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    
-  }
-  
-
-  
   nav button {
     background-color: #ff9900;
-    color: #fff;
+    color: black;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 25px;
     border: none;
     font-size: 18px;
     border-radius: 500px;
   }
-  
+  .for {
+    background-image: url("Images/headphones_hero_1.jpg");
+  }
   
   
   .hero {
@@ -90,6 +78,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    
   }
   
   .hero-text {
@@ -132,7 +121,7 @@ h1 {
   
   
   body, header {
-    background-image: url("Images/headphones_hero_1.jpg");
+    
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -140,12 +129,15 @@ h1 {
   }
    .cta p{
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 800px;
+    max-width: 600px;
     font-size: 13px;
-    padding: 200px;
-    margin-top: -130px;
+    padding: 40px;
+    display: flex;
+    flex: 1;
+    margin-left: 120px;
+    
    }
    main {
     max-width: 800px;
@@ -154,9 +146,6 @@ h1 {
     align-items: center;
     text-align: center;
   }
-  
-  
-  
   /* Media queries */
   @media screen and (max-width: 767px) {
     header {
