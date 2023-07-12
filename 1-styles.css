@@ -61,9 +61,9 @@ h1 {
   
   nav button {
     background-color: #ff9900;
-    color: black;
+    color:whitesmoke;
     padding: 10px 20px;
-    border-radius: 25px;
+    border-radius: 50px;
     border: none;
     font-size: 18px;
     border-radius: 500px;
@@ -101,6 +101,8 @@ h1 {
     border-radius: 5px;
     border: none;
     font-size: 18px;
+    color:whitesmoke;
+        border-radius: 50px;
     
   }
   

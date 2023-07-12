@@ -101,6 +101,8 @@ h1 {
     border-radius: 5px;
     border: none;
     font-size: 18px;
+    color:whitesmoke;
+        border-radius: 50px;
     
   }
   
@@ -246,7 +248,6 @@ h1 {
     
   }
   .contact {
-    margin-bottom: 50px;
     color: #333;
     text-align: center;
     justify-content: center;
